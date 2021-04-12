@@ -1,0 +1,150 @@
+@import "https://fonts.googleapis.com/css?Family=Lato:400,700";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html body {
+    height: 100%;
+}
+
+nav {
+    list-style-type: none;
+
+}
+
+header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 50px;
+    display: flex;
+    align-items: center;
+
+}
+
+header * {
+    display: inline;
+    text-decoration: none;
+}
+
+header img {
+    height: 50px;
+}
+
+header li {
+    margin: 20px;
+}
+
+header li a {
+    color: whitesmoke;
+}
+
+body {
+    background-color: beige;
+    font-family: Lato, sans-serif;
+    margin-top: 50px;
+    display: flex;
+}
+
+footer {
+    box-sizing: border-box;
+    height: 30px;
+    margin-top: 30px;
+    background-color: #ddd;
+    flex-shrink: 0;
+    font-size: 13px;
+    padding: 10px;
+}
+
+footer * {
+    display: inline;
+    text-decoration: none;
+}
+
+footer li {
+    margin: 10px;
+}
+
+footer li a {
+    margin-left: 10px;
+    color: darkslategrey;
+}
+
+.footer-content {
+    margin-left: 60%;
+}
+
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 960px;
+    min-height: 100%;
+    padding: 50px;
+    flex: 1 0 auto;
+    border-top-left-radius: 10% 10%;
+    border-top-right-radius: 10% 10%;
+    border-bottom-left-radius: 10% 10%;
+    border-bottom-right-radius: 10% 10%;
+    background-color: #ecf8f2;
+}
+
+#nav-bar {
+    margin-left: 70%;
+}
+
+#footer-content {
+    padding: 10px;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.intro {
+    padding: 150px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    border-bottom-left-radius: 50% 20%;
+    border-bottom-right-radius: 50% 20%;
+}
+
+#intro-header {
+    font-size: 50px;
+    padding: 10px;
+}
+#intro-p {
+    font-size: 15px;
+    padding: 30px;
+}
+
+form {
+    display: block;
+}
+input[type='email'] {
+    max-width: 275px;
+    width: 100%;
+    padding: 5px;
+    border: none;
+    margin-top: 50px;
+}
+
+input[type='submit'] {
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    color: #1abc9c;
+}
+
+.btn {
+    border: none;
+    border-radius: 5px;
+    max-width: 80px;
+    width: 100%;
+    padding: 5px;
+    color: #1abc9c;
+}
